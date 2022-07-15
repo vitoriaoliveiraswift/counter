@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var result: UILabel!
     
-    @IBAction func buttonMore(_ sender: Any) {
+    @IBAction func buttonMais(_ sender: Any) {
         count = count + 1
         result.text = "\(count)"
     }
@@ -30,11 +30,13 @@ class ViewController: UIViewController {
         print("\(count)")
     }*/
     
-    @IBAction func buttonLess(_ sender: Any) {
+    @IBAction func buttonMenos(_ sender: Any) {
         count = count - 1
         result.text = "\(count)"
     }
 }
+
+//coment aleatorio adicionado
 
 
 
